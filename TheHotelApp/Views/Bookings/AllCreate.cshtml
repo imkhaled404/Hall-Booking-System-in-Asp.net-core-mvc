@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Layout";
+}
+<div class="row">
+    <div class="clearfix" style="background-color: darkcyan;padding: 0px 0px 0px 0px;margin: 0px;">
+        <h3 style=" color: white; padding-left: 20px;font-weight:800;">
+            Rental Agreement
+        </h3>
+    </div>
+</div>
+<div class="row" style=" padding-top: 10px; padding-bottom: 30px; margin: 0px; ">
+    <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-success" asp-action="Create" asp-controller="Bookings">
+            <i class="fa fa-plus" id="icone_grande"></i> <br><br>
+            <span class="texto_grande">Create</span>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-danger" asp-action="Create" asp-controller="Rooms">
+            <i class="fa fa-plus" id="icone_grande"></i> <br><br>
+            <span class="texto_grande">Hall Create</span>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-primary" asp-action="Index" asp-controller="Bookings">
+            <i class="fa fa-calendar" id="icone_grande"></i> <br><br>
+            <span class="texto_grande">Schedule</span>
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-warning" asp-action="Index" asp-controller="Rooms">
+            <i class="fa fa-list" id="icone_grande"></i> <br><br>
+            <span class="texto_grande">LIST</span>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="clearfix" style="background-color: darkcyan; padding: 0px 0px 0px 0px;margin: 0px;">
+        <h3 style="color: white; padding-left: 20px;font-weight:800;">
+            Rental Application Approved
+        </h3>
+    </div>
+</div>
+<div class="row" style=" padding-top: 10px; padding-bottom: 30px; margin: 0px; ">
+    <div class="col-md-3">
+        <a class="btn btn-block btn-lg btn-success" asp-action="Create" asp-controller="Bookings">
+            <i class="fa fa-check" id="icone_grande"></i> <br><br>
+            <span>Rental Application 
+            <br />Approved</span>
+        </a>
+    </div>
+    </div>
